@@ -77,8 +77,8 @@ img {
 
 .container {
   max-width: 1440px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -96,7 +96,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #294168;
+  background-color: #1ba057;
   color: #ffffff;
 }
 
@@ -473,7 +473,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-image: linear-gradient(to right, #0c3372, #2e61b3, #7898cc) ;
+  background-image: linear-gradient(to right, #0c7236, #2eb34f, #78cc86) ;
 }
 
 .footer__right {
