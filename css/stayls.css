@@ -493,7 +493,7 @@ img {
   text-decoration: none;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 375px) {
   .header__list {
     display: none;
   }
