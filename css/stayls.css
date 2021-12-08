@@ -178,6 +178,11 @@ img {
   font-weight: 700;
 }
 
+.title--kurs {
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .techer__list {
   max-width: 1200px;
   margin-left: auto;
@@ -208,7 +213,8 @@ img {
 }
 
 .list--img {
-  border-radius: 50%;
+  padding: 10px 0 0 10px;
+
 }
 
 .techer--btn {
@@ -227,6 +233,7 @@ img {
   margin-right: auto;
   align-items: center;
   margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .navbar__left {
@@ -256,4 +263,224 @@ img {
 
 .navbar__left--text {
   font-size: 14px;
+}
+
+.section__our {
+  margin-bottom: 80px;
+}
+
+.our__courses {
+  background-color: #ffffff;
+}
+
+.our__courses__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.our__courses__list--itme {
+  width: 300px;
+  list-style-type: none;
+  color: #ffffff;
+  border-radius: 15px;
+  margin: 15px;
+  box-shadow:0 10px 10px 0px rgb(0 0 0 / 10%);
+}
+
+.item__img {
+  background-image: linear-gradient(to bottom, rgb(14, 5, 143) , rgb(93, 80, 211), rgb(134, 122, 238));
+}
+.item__orenj {
+  background-image: linear-gradient(to bottom, rgb(19, 155, 7) , rgb(96, 207, 74), rgb(156, 240, 148));
+}
+.item__red {
+  background-image: linear-gradient(to bottom, rgb(155, 108, 7) , rgb(207, 165, 74), rgb(228, 199, 145));
+}
+.item__blue {
+  background-image: linear-gradient(to bottom, rgb(150, 7, 155) , rgb(207, 74, 196), rgb(240, 148, 220));
+}
+.item__yellow {
+  background-image: linear-gradient(to bottom, rgb(155, 17, 7) , rgb(207, 74, 74), rgb(240, 151, 148));
+}
+
+.our__curses_title {
+  font-size: 16px;
+  /* width: 250px; */
+  padding-left: 15px;
+}
+
+.information {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.information__item {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  list-style-type: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: 0 10px 10px 0px rgb(0 0 0 / 10%);
+}
+
+.information__text {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 11px;
+}
+
+.closk {
+  margin-left: 15px;
+  margin-right: 12px;
+}
+
+.lesson_deration {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.bottom {
+  margin-bottom: 30px;
+}
+
+.pirse {
+  align-items: center;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 14px;
+}
+
+.location {
+  margin-bottom: 80px;
+}
+
+.location__maps--title, .our__courses--title {
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1.5px;
+  padding-bottom: 50px;
+}
+
+.location__maps {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 8px 14px;
+  box-shadow:0 10px 10px 0px rgb(0 0 0 / 10%);
+}
+
+.location__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.location__title {
+  color: #000000;
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 1.5px;
+  padding-bottom: 20px;
+}
+
+.left__top {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.location__text {
+  width: 270px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #000000;
+  padding-left: 15px;
+}
+
+.maps {
+  display: flex;
+  padding-bottom: 70px;
+}
+
+.maps__phone {
+  display: flex;
+  flex-direction: column;
+}
+
+.location__img {
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+.location__tel {
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.location__tel:hover {
+  color: blue;
+  cursor: pointer;
+  border-bottom: 2px solid blue;
+}
+
+.location__link--maps {
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 16px;
+  color: #000000;
+  border-radius: 25px;
+  margin-left: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: rgb(255, 230, 0);
+}
+
+.location__link--maps:hover {
+  color: #ffffff;
+  background-color: blue;
+}
+
+.footer__tolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, #0c3372, #2e61b3, #7898cc) ;
+}
+
+.footer__right {
+  margin-right: 70px;
+}
+
+.footer__title {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.img {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
 }
