@@ -96,7 +96,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1ba057;
+  background-image: linear-gradient(to right, #0c7236, #2eb34f, #78cc86) ;
   color: #ffffff;
 }
 
