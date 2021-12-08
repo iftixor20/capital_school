@@ -412,7 +412,6 @@ img {
 
 .left__top {
   display: flex;
-  padding-bottom: 50px;
 }
 
 .location__text {
@@ -426,7 +425,7 @@ img {
 
 .maps {
   display: flex;
-  padding-bottom: 70px;
+  padding-bottom: 40px;
 }
 
 .maps__phone {
@@ -494,7 +493,7 @@ img {
   text-decoration: none;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 364px) {
   .header__list {
     display: none;
   }
