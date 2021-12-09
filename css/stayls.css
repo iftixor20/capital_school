@@ -672,7 +672,7 @@ img {
 
   .btn, .btn2 {
     width: 190px;
-    margin-left: 74px !important;
+    margin-left: 84px !important;
     margin: 0;
     padding: 5px 8px;
   }
@@ -787,7 +787,6 @@ img {
   }
 
   .img {
-    /* width: 60px; */
     padding: 0 5px;
     margin-left: -18px;
   }
