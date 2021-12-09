@@ -665,6 +665,8 @@ img {
   }
 
   .btn, .btn2 {
+    width: 190px;
+    margin-left: 74px;
     margin: 0;
     padding: 5px 8px;
   }
