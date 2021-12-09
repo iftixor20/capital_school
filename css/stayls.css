@@ -254,7 +254,7 @@ img {
 
 .wrapper {
   color: #000;
-  background-image: url("https://center.profiedu.uz/wp-content/uploads/2019/08/121.jpg");
+  background-image: url("../img/teacher.jpg");
   background-repeat: no-repeat;
   object-fit: cover;
   background-size: 101%;
@@ -757,7 +757,7 @@ img {
   }
 
   .footer__title {
-    font-size: 16px;
+    font-size: 12px;
     margin: 0;
     padding: 0;
     padding-bottom: 5px;
