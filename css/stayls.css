@@ -97,13 +97,13 @@ img {
   margin-right: 25px;
   width: 33px;
   height: 33px;
-  background-image: url(.././img/hamburger.svg);
+  background-image: url(../img/burger.svg);
   background-repeat: no-repeat;
   border: none;
 }
 
 .header-section--open .header-button {
-  background-image: url(../../img/close.svg);
+  background-image: url(../img/close.svg);
   background-color: none;
 
 }
