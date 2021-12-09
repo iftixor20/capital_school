@@ -90,8 +90,7 @@ img {
   align-items: center;
   justify-content: space-between;
   align-items: center;
-  padding-top: 32px;
-
+  background-color: rgb(38, 184, 86);
 }
 
 .header-button {
@@ -148,7 +147,7 @@ img {
   font-size: 24px;
   line-height: 32px;
   text-align: center;
-  color: #333D4B;
+  color: #000000;
   cursor: pointer;
 }
 
@@ -177,7 +176,10 @@ img {
 
 @media only screen and (min-width: 768px) {
   .header-logo__img {
-    width: 235px;
+    width: 124px;
+    height: 59px;
+    margin-left: 15px;
+    object-fit: cover;
   }
 
   .header-section {
@@ -225,6 +227,12 @@ img {
   .header-nav__link:hover {
     color: rgb(255, 51, 0);
     border-bottom: 2px solid #0407c0;
+  }
+
+  .footer__tolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 
@@ -610,6 +618,12 @@ img {
   line-height: 26px;
 }
 
+.footer__left--img {
+  margin-left: 20px;
+  width: 124px;
+  height: 116px;
+}
+
 .img {
   padding-left: 5px;
   padding-right: 5px;
@@ -636,13 +650,14 @@ img {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    line-height: 1;
     align-items: center;
   }
 
   .footer__link {
     text-decoration: none;
     color: #ffffff;
-    font-size: 12px;
+    font-size: 9px;
   }
 
   .footer__right {
@@ -730,14 +745,21 @@ img {
 
   .footer__title {
     font-size: 16px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
   }
 
   .footer__tolbar {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
   }
 
-  .footer__right--img {
-    display: flex;
+  .footer__left--img {
+    margin-left: 20px;
+    width: 70px;
+    height: 70px;
   }
 
   .footer__right {
@@ -745,7 +767,7 @@ img {
   }
 
   .img {
-    width: 30px;
+    width: 20px;
   }
 
 }
